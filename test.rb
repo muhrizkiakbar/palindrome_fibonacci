@@ -1,7 +1,7 @@
 require 'pry'
 require 'rspec'
 
-class Class
+class String
   def self.palindrome?(str)
     str = str.to_s
     str_reversed = ""
