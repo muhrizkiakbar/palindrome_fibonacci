@@ -33,5 +33,5 @@ def fibonacci(number_index)
   ( fibonacci(number_index - 1) + fibonacci(number_index - 2) )
 end
 
-puts fibonacci(3)
-
+puts fibonacci(8)
+# result 21
