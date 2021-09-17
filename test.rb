@@ -28,16 +28,8 @@ RSpec.describe "Gredu" do
   end
 end
 
-$counter = 0
 def fibonacci(number_index)
-  puts "jalan" + number_index.to_s
-  puts "stop " + number_index.to_s if (0..1).include? number_index
   return number_index if (0..1).include? number_index
-  $counter += 1
-  puts "*" * $counter
-  puts "kalian ke " + $counter.to_s
-  puts "hasil pengurangan 1 = " + (number_index - 1).to_s
-  puts "hasil pengurangan 2 = " + (number_index - 2).to_s
   ( fibonacci(number_index - 1) + fibonacci(number_index - 2) )
 end
 
